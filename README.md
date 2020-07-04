@@ -2,7 +2,7 @@
 Online RPG made in Lua with love.
 
 ### To do
-- [X] Accept multiple protocols (tcp, enet, websocket)
+- [ ] Accept multiple protocols (tcp, enet, websocket)
 - [X] Cycle between scenes
 - [X] Create UI from XML
 - [X] Cached UI rendering
