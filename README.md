@@ -1,7 +1,7 @@
 # ORPG
 Online RPG made in Lua with love.
 
-# To do
+### To do
 - [X] Accept multiple protocols (tcp, enet, websocket)
 - [X] Cycle between scenes
 - [X] Create UI from XML
@@ -17,7 +17,7 @@ Online RPG made in Lua with love.
 - [ ] Party
 - [ ] Guild
 
-# UI Controls
+### UI Controls
 - [X] Panel
 - [X] Button
 - [ ] Text Box
@@ -25,7 +25,7 @@ Online RPG made in Lua with love.
 - [ ] List
 - [ ] Combo Box
 
-# Network protocols implemented
+### Network protocols implemented
 - [X] TCP
 - [ ] Enet
 - [ ] WebSocket
