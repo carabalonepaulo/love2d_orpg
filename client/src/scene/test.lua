@@ -10,6 +10,11 @@ local pp = require 'lib.pp'
 function TestScene:new()
   TestScene.super.new(self)
   local control = UserInterfaceManager:load_controls('assets/ui/test_panel.xml')
+  local button = control:get_children()[1]
+
+  control:pipe_all_events_to(button)
+  button:on('mouse_enter', function() print('enter child') end)
+
   ControlManager:add_control(control)
   ControlManager:get_input_focus(control)
 end

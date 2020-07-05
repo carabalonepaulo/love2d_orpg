@@ -1,9 +1,6 @@
 local EventDispatcher = require 'src.event_dispatcher'
 local AttributeMapper = EventDispatcher:extend()
 
-function AttributeMapper:new()
-end
-
 function AttributeMapper:map_object(object)
   assert(object, 'argument error')
 

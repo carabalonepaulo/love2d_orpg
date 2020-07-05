@@ -5,6 +5,10 @@ local ControlManager = require 'src.manager.control'
 _G['love'] = {
   graphics = {
     newCanvas = function()
+      return true
+    end,
+    setCanvas = function()
+      return true
     end
   }
 }
