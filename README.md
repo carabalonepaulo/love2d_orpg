@@ -4,7 +4,7 @@ Online RPG made in Lua with love.
 ### To do
 - [ ] Accept multiple protocols (tcp, enet, websocket)
 - [X] Cycle between scenes
-- [X] Create UI from XML
+- [X] Create UI from Lua
 - [X] Cached UI rendering
 - [ ] Login/Register
 - [ ] Multiple classes
@@ -18,14 +18,16 @@ Online RPG made in Lua with love.
 - [ ] Guild
 
 ### UI Controls
-- [X] Panel
-- [X] Button
-- [ ] Text Box
-- [ ] Check Box
+- [ ] CheckBox
 - [ ] List
-- [ ] Combo Box
+- [ ] ComboBox
+- [X] Button
+- [X] TextInput
+- [X] FlatButton
+- [X] Panel
+- [X] Label
 
 ### Network protocols implemented
 - [X] TCP
-- [ ] Enet
+- [X] Enet
 - [ ] WebSocket
